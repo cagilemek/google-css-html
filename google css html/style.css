@@ -1,0 +1,215 @@
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+}
+#header-container .headerlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-container .headerlist .headerli {
+    padding: 0 10px;
+    height: 92px;
+    max-width: 100%;
+}
+
+.container {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 13%;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 50px;
+  outline: none;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  margin-top: -10px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  width: 11555px;
+  height: 34px;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: 3px solid #f8f9fa;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid #f8f9fa;
+}
+
+
+.menu {
+  list-style: none
+  display block;
+}
+
+.menu li{
+  display: inline;
+  margin: 10px;
+  position: relative;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #70757a;
+  font-size: 14px;
+}
+footer a {
+  color: #70757a;
+}
+footer #location {
+  padding-left: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+  /* footernav */
+
+footer #footer-container {
+  background-color: white;
+}
+footer #footer-container .footer-items{
+  display: flex;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  height: 24px;
+}
+footer #footer-container .footer-items .footer-item {
+  padding: 0 10px;
+  margin: auto auto;
+}
+.footer-item-1 {
+  position: absolute;
+  left: 10px;
+}
+.footer-item-2 {
+  position: absolute;
+  left: auto;
+  right: auto;
+}
+.footer-item-3 {
+  position: absolute;
+  right: 10px;
+}
+  /* footerlist */
+.footerlist {
+  display: flex;
+  list-style: none;
+  padding: 0 10px;
+  margin: auto 4px;
+}
+.footerli {
+  padding: 0 4px;
+}
